@@ -32,16 +32,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-Am=6.9
-fm=542
-fs=54200
+Am=5.5
+fm=467
+fs=46700
 t=np.arange(0,2/fm,1/fs)
 m=Am*np.cos(2*np.pi*fm*t)
 plt.subplot(3,1,1)
 plt.plot(t,m)
 
-Ac=13.8
-fc=5420
+Ac=11
+fc=4670
 c=Ac*np.cos(2*np.pi*fc*t)
 plt.subplot(3,1,2)
 plt.plot(t,c)
@@ -57,14 +57,14 @@ plt.show()
 
 ## Output Waveform
 
-<img width="713" height="556" alt="image" src="https://github.com/user-attachments/assets/0d75530d-ae11-41a6-9110-f3923a80ea37" />
+<img width="693" height="516" alt="image" src="https://github.com/user-attachments/assets/b3530331-8822-42e0-814e-e341d0c0f631" />
 
 
 
 
 ## Tabular Column
 
-![WhatsApp Image 2025-11-13 at 12 52 29_2a466910](https://github.com/user-attachments/assets/c249b90f-ed67-43be-b428-d686c3d590e5)
+<img width="684" height="953" alt="image" src="https://github.com/user-attachments/assets/c065f113-89b8-4823-83c3-b0f4c17fc12c" />
 
 
 
